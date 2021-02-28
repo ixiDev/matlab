@@ -5,4 +5,4 @@ dict = huffmandict(symbols, prob, 1);
 fprintf("Symbole \t probabilité \t code Huffman \n")
 for i=1:length(symbols)
   fprintf("%c \t\t %f \t ",symbols(i),prob(i) ); disp(dict{i});
-endfor
+end
