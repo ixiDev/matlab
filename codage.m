@@ -1,4 +1,4 @@
-symbols=['a' 'b' 'c' 'd'];
+symbols=[1:4];
 prob = [0.5 0.25 0.15 0.1];
 dict = huffmandict(symbols, prob, 1);
 
